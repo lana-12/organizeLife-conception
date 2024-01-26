@@ -1,0 +1,24 @@
+Structure du Projet React (Frontend) :
+
+Répertoire src:
+
+	Components : 
+		Divise tes composants React en fonctionnalités. Par exemple, un dossier "Projet" pourrait contenir tous les composants liés à la gestion des projets.
+	Pages : 
+		Chaque page de ton application (par exemple, la page d'accueil, la page de gestion des projets) a son propre dossier.
+	Services : 
+		Gère les appels API, les requêtes vers le backend, etc.
+	Styles : 
+		Les fichiers de styles, peut-être organisés par composant ou page.
+
+Répertoire public:
+
+	Fichiers statiques : Les images, icônes, et autres fichiers statiques.
+
+Répertoire config:
+	
+	Fichiers de configuration si nécessaire, par exemple pour les variables d'environnement.
+
+Répertoire tests:
+
+	Tests unitaires ou de bout en bout si tu implémentes des tests.

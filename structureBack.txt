@@ -1,0 +1,33 @@
+
+
+Structure du Projet Symfony (Backend) :
+
+Répertoire src:
+
+	Controller : 
+		Divise tes contrôleurs en fonctionnalités clés de ton application.
+	Entity : 
+		Contient tes entités Doctrine, telles que User, Projet, Collaborateur, Event, etc.
+	Repository : 
+		Place les requêtes complexes ou spécifiques à la base de données ici.
+
+Répertoire src/Security:
+	
+	Contient les classes de sécurité personnalisées si nécessaire.
+
+Répertoire src/Service:
+
+	Services réutilisables : 
+		Place ici des services réutilisables dans différentes parties de ton application.
+
+Répertoire src/Event:
+
+	Écouteurs d'événements Symfony si nécessaire.
+
+Répertoire config:
+
+	Fichiers de configuration Symfony.
+
+Répertoire templates:
+
+	Contient les fichiers de template Twig si tu les utilises.
